@@ -1,0 +1,60 @@
+{
+    "config": {
+        "rush": true,
+        "recovery": false
+    },
+    "steps": [
+        {
+            "name": "personal-information",
+            "label": "Personal Information",
+            "fields": [
+                {
+                    "name": "full-name",
+                    "label": "Full name",
+                    "type": "text"
+                },
+                {
+                    "name": "nationality",
+                    "label": "Nationality",
+                    "type": "select"
+                },
+                {
+                    "name": "date-of-birth",
+                    "label": "Date of birth",
+                    "type": "date"
+                },
+                {
+                    "name": "date-of-departure",
+                    "label": "Date of planned departure",
+                    "type": "date"
+                }
+            ]
+        },
+        {
+            "name": "secure-payment",
+            "label": "Secure Payment",
+            "fields": [
+                {
+                    "name": "card-number",
+                    "label": "Card number",
+                    "type": "text"
+                },
+                {
+                    "name": "cvv",
+                    "label": "CVV",
+                    "type": "text"
+                },
+                {
+                    "name": "expiration-date",
+                    "label": "Expiration Date",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "recieve-email",
+            "label": "Recieve an confirmation email",
+            "fields": []
+        }
+    ]
+}
